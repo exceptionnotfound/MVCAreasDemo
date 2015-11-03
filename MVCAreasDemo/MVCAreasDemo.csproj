@@ -138,6 +138,9 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Areas\Billing\Views\web.config" />
+    <Content Include="Areas\Billing\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Billing\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Billing\Views\BillingMain\Index.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -168,8 +171,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Billing\Models\" />
-    <Folder Include="Areas\Billing\Views\BillingMain\" />
-    <Folder Include="Areas\Billing\Views\Shared\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
